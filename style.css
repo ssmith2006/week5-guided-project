@@ -1,20 +1,113 @@
-.hero{
-background-image: url("self-care.jpg");
-background-size: cover;
-background-position: center;
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
-.hero-h1{
-
+/* Header Section */
+header {
+  background-color: #333;
+  padding: 10px 0;
 }
 
-.hero-p{
-
-}
-.action-button{
-
+header > nav > ul {
+  list-style: none;
+  text-align: center;
 }
 
-.action-button:hover{
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
 
+header nav ul a:hover {
+  background-color: #444;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007bff;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.content {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #28a745;
+}
+
+.contact button {
+  background-color: white;
+  color: #28a745;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact button:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.button{
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 50%;
+    margin: auto;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
 }
